@@ -1,0 +1,5 @@
+Return those employees that are salesman that make either 300 dollars in commision or greater than 1000 dollars in commision
+
+select * from emp
+where job = 'SALESMAN'
+and comm = 300 or comm > 1000
