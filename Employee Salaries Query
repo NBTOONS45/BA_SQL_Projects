@@ -1,0 +1,1 @@
+select ename Employee_Name, to_char(sal, '$99,999.99') salaries from emp
